@@ -1,0 +1,324 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+header {
+    background: linear-gradient(rgba(60, 63, 73, 0.8), rgba(60, 63, 73, 0.8)), url("img/header-bg.png");
+    color: rgb(255, 255, 255);
+    height: 45em;
+    background-position: center;
+    background-size: cover;
+}
+
+header nav {
+    display: inline-block;
+    float: right;
+    padding: 30px;
+}
+
+header p.codemesh {
+    display: inline-block;
+    padding: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+div.header {
+    width: 50%;
+    margin: 12% auto 8% auto;
+    padding-left: 10%;
+}
+
+div.header h1 {
+    display: inline-block;
+    width: 70%;
+    float: left;
+    font-weight: 300;
+}
+
+div.header i {
+    width: 8%;
+    margin-top: 1%;
+}
+
+.header-articles {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    margin-left: 4%;
+    height: 12.3em;
+}
+
+.header-articles i {
+    margin-bottom: 15%;
+}
+
+header nav ul li a:hover, div.header i:hover {
+    color: rgb(250, 105, 46);
+    cursor: pointer;
+}
+
+.header-articles:hover {
+    border-bottom: 10px solid rgb(250, 105, 46);
+    cursor: pointer;
+}
+
+main section {
+    margin-top: 8%;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.main-articles {
+    display: inline-block;
+    width: 27%;
+    vertical-align: top;
+    height: 15%;
+    margin-top: 5%;
+    margin-right: 5%;
+    z-index: 1;
+}
+
+.main-articles h1 {
+    margin-top: 10%;
+    text-align: right;
+    padding-left: 30%;
+    font-size: 1.5em;
+}
+
+.main-articles p {
+    text-align: right;
+    margin-top: 10%;
+    text-transform: capitalize;
+    font-style: oblique;
+    font-size: 1em;
+}
+
+#second-main-article {
+    text-align: left;
+    padding-bottom: 10%;
+    border-bottom: 1px solid gray;
+    margin-top: 0;
+}
+
+.main-articles h3 {
+    text-align: left;
+    padding-top: 5%;
+}
+
+.main-articles.picture {
+    position: relative;
+}
+
+.main-articles.picture::before {
+    content: '';
+    position: absolute;
+    width: 316px;
+    height: 446px;
+    top: -66px;
+    right: 70px;
+    background: rgba(250, 105, 46, 0.8);
+}
+
+section.schedule {
+    width: 100%;
+    background: rgb(60, 62, 74);
+    color: rgb(255, 255, 255);
+    text-align: unset;
+    height: 60vh;
+}
+
+section.schedule h1 {
+    font-size: 1.3em;
+    padding: 57px;
+    width: 24%;
+    margin-left: 30px;
+}
+
+article.schedule {
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+
+article.schedule div {
+    padding-left: 100px;
+    width: 80%;
+    margin: auto;
+}
+
+article.schedule i {
+    background: rgb(250, 105, 46);
+    font-size: 20px;
+    width: 23px;
+    height: 23px;
+    text-align: center;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+article.schedule span.time {
+    font-weight: bold;
+    padding: 0 15px;
+}
+
+article.schedule p {
+    text-transform: capitalize;
+    font-weight: 300;
+    line-height: 70px;
+}
+
+section.speakers {
+    width: 80%;
+}
+
+section.speakers h1 {
+    width: 40%;
+    float: left;
+    text-align: left;
+    color: rgb(60, 62, 74);
+    font-weight: 900;
+    margin-top: 50px;
+}
+
+section.speakers h4 {
+    width: 60%;
+    display: inline-block;
+    margin-top: 70px;
+    text-align: left;
+    font-weight: 500;
+    color: rgb(60, 62, 74);
+}
+
+section.speakers div#headings {
+    width: 100%;
+    margin: auto;
+}
+
+section.speakers div {
+    width: 27%;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+section.speakers div article {
+    margin: auto;
+    width: fit-content;
+    background: rgb(250, 250, 250);
+    box-shadow: 10px 10px 15px -5px rgba(0, 0, 0, 0.25);
+}
+
+.name {
+    font-size: 20px;
+    padding: 10px 0 10px 30px;
+    text-transform: capitalize;
+    text-align: left;
+    font-weight: bold;
+    color: rgb(60, 62, 74);
+}
+
+.position {
+    padding: 20px;
+    padding-left: 30px;
+    text-transform: uppercase;
+    text-align: left;
+    color: rgba(250, 106, 46, 0.5);
+}
+
+section.speakers i:hover {
+    color: rgb(250, 106, 46);
+    cursor: pointer;
+}
+
+section.special-events {
+    background: rgb(60, 62, 74);
+    width: 100%;
+    padding: 60px 0px;
+}
+
+section.special-events article {
+    padding: 60px;
+    width: 50%;
+    margin: auto;
+    border: 1px solid rgb(255, 255, 255); 
+}
+
+section.special-events h1 {
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.special-events p {
+    width: 60%;
+    color: rgb(255, 255, 255);
+    margin: 40px auto;
+}
+
+.special-events form input#email {
+    background: none;
+    border: none;
+    border-bottom: 4px solid rgb(250, 106, 46);
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.special-events input#button {
+    background: rgb(250, 106, 46);
+    border: none;
+    border-radius: 20px;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 50px;
+}
+
+.special-events input#button:hover {
+    background: rgb(51, 51, 51);
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    background: rgb(40, 42, 48);
+    padding: 30px;
+}
+footer p#left{
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    float: left;
+    font-size: 20px;
+    font-weight:bold;
+}
+footer p#right{
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    float: right;
+    font-size: 20px;
+    font-weight: 300;
+}
